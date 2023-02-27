@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    /*background: #181D2C;*/
+}
+
+.navegacaoHeader{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.campoPesquisa, .botaoPesquisa{
+    border-radius: 20px;
+}
