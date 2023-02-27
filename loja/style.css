@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -8,16 +10,68 @@
 body{
     font-size: 100%;
     /*background: #181D2C;*/
+    /*background: #242424;*/
+    color: rgba(194, 0, 0, 0.86);
+    font-family: 'Sarala', sans-serif;
 }
 
 .navegacaoHeader{
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     align-items: center;
-    justify-content: space-around;
-    padding: 10px;
+    justify-content: flex-end;
+    gap: 50px;
+    padding: 20px;
 }
 
-.campoPesquisa, .botaoPesquisa{
-    border-radius: 20px;
+.conteudoImagem{
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+}
+
+.imagemConteudo{
+    width: 350px;
+}
+
+.conteudoPesquisa{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    gap: 1px;
+}
+
+.conteudoBotaoPesquisa{
+    display: flex;
+    justify-content: center;
+}
+
+.campoPesquisa{
+    width: 350px;
+    border-radius: 10px;
+    text-align: center;
+    background: rgba(194, 0, 0, 0.86);
+}
+
+input::placeholder{
+    color: aliceblue;
+}
+
+#botaoPesquisa{
+    border-radius: 50px;
+    width: 80px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.2em;
+    background: rgba(194, 0, 0, 0.86);
+    border: 0;
+    color: aliceblue;
+
+}
+
+.conteudoLabel{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 15px;
 }

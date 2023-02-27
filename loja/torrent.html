@@ -20,13 +20,12 @@
 <body>
     <main>
         <div class="conteudoImagem">
-            <img src="./imagem/It`s not just a.gif" alt="Gif animação do campo de pesquisa">
+            <img class="imagemConteudo" src="./imagem/It`s not just a.gif" alt="Gif animação do campo de pesquisa">
         </div>
         <div class="conteudoPesquisa">
-            <h1>Pesquise seus jogos aqui</h1>
-            <input class="campoPesquisa" type="search" placeholder="Pesquisar jogo">
-            <button class="botaoPesquisa" type="submit">Buscar</button>
-
+            <input class="campoPesquisa" type="search" placeholder="Pesquise seus jogos aqui" required>
+        </div>
+        <div class="conteudoLabel">
             <input type="checkbox" class="checkboxConteudo" name="selecaoConteudo1" value="Ação">
             <label for="Ação">Ação</label>
             <input type="checkbox" class="checkboxConteudo" name="selecaoConteudo2" value="Aventura">
@@ -42,10 +41,11 @@
             <input type="checkbox" class="checkboxConteudo" name="selecaoConteudo7" value="Estratégia">
             <label for="Estratégia">Estratégia</label>
         </div>
+        <div class="conteudoBotaoPesquisa">
+            <button id="botaoPesquisa" type="submit">Buscar</button>
+        </div>
     </main>
 </body>
-<footer>
-    <p>Pagina criada e customizada</p>
-</footer>
+
 <script src="animacao.js"></script>
 </html>
