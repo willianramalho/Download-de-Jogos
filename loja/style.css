@@ -10,8 +10,8 @@
 body{
     font-size: 100%;
     /*background: #181D2C;*/
-    /*background: #242424;*/
-    color: rgba(194, 0, 0, 0.86);
+    background: #000000;
+    color: rgba(239, 56, 56, 0.86);
     font-family: 'Sarala', sans-serif;
 }
 
@@ -22,6 +22,11 @@ body{
     justify-content: flex-end;
     gap: 50px;
     padding: 20px;
+}
+
+.headerLinks{
+    text-decoration: none;
+    color:rgba(194, 0, 0, 0.86);    ;
 }
 
 .conteudoImagem{
@@ -51,6 +56,15 @@ body{
     border-radius: 10px;
     text-align: center;
     background: rgba(194, 0, 0, 0.86);
+    box-shadow: 8px 8px 8px rgba(207, 188, 188, 0.2);
+}
+
+.campoPesquisa:hover{
+    background: rgba(184, 57, 57, 0.86);
+}
+
+input{
+    color: aliceblue;
 }
 
 input::placeholder{
@@ -66,7 +80,13 @@ input::placeholder{
     background: rgba(194, 0, 0, 0.86);
     border: 0;
     color: aliceblue;
+    box-shadow: 4px 4px 4px rgba(207, 188, 188, 0.2);
+}
 
+#botaoPesquisa:hover{
+    background: rgba(184, 57, 57, 0.86);
+    box-shadow: 4px 4px 4px rgba(207, 188, 188, 0.2);
+    text-shadow: none;
 }
 
 .conteudoLabel{
@@ -74,4 +94,10 @@ input::placeholder{
     justify-content: center;
     padding: 10px;
     gap: 15px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 130px;
 }
